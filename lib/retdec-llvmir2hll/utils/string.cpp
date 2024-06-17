@@ -7,10 +7,10 @@
 #include <cstddef>
 #include <vector>
 
-#include "backend/retdec-llvmir2hll/support/debug.h"
-#include "backend/retdec-llvmir2hll/utils/string.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/conversion.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/support/debug.h"
+#include "retdec-llvmir2hll/utils/string.h"
+#include "retdec-llvmir2hll/retdec-utils/conversion.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
 
 using retdec::utils::hasOnlyDecimalDigits;
 using retdec::utils::hasOnlyHexadecimalDigits;

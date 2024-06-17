@@ -7,7 +7,7 @@
 #include <algorithm>
 #include <iostream>
 
-#include "backend/retdec-llvmir2hll/common/calling_convention.h"
+#include "retdec-llvmir2hll/common/calling_convention.h"
 
 namespace retdec {
 namespace common {

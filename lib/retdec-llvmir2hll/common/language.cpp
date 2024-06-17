@@ -4,8 +4,8 @@
  * @copyright (c) 2019 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/common/language.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/common/language.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
 
 namespace retdec {
 namespace common {

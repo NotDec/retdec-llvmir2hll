@@ -8,7 +8,7 @@
 #include <string>
 #include <vector>
 
-#include "backend/retdec-llvmir2hll/common/file_type.h"
+#include "retdec-llvmir2hll/common/file_type.h"
 
 namespace retdec {
 namespace common {

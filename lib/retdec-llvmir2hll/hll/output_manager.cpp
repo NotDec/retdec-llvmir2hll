@@ -4,7 +4,7 @@
 * @copyright (c) 2019 Avast Software, licensed under the MIT license
 */
 
-#include "backend/retdec-llvmir2hll/hll/output_manager.h"
+#include "retdec-llvmir2hll/hll/output_manager.h"
 
 namespace retdec {
 namespace llvmir2hll {

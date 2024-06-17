@@ -10,23 +10,23 @@
 #include <rapidjson/stringbuffer.h>
 #include <rapidjson/encodings.h>
 
-#include "backend/retdec-llvmir2hll/retdec-config/config.h"
-#include "backend/retdec-llvmir2hll/serdes/address.h"
-#include "backend/retdec-llvmir2hll/serdes/architecture.h"
-#include "backend/retdec-llvmir2hll/serdes/class.h"
-#include "backend/retdec-llvmir2hll/serdes/file_format.h"
-#include "backend/retdec-llvmir2hll/serdes/file_type.h"
-#include "backend/retdec-llvmir2hll/serdes/function.h"
-#include "backend/retdec-llvmir2hll/serdes/language.h"
-#include "backend/retdec-llvmir2hll/serdes/object.h"
-#include "backend/retdec-llvmir2hll/serdes/pattern.h"
-#include "backend/retdec-llvmir2hll/serdes/vtable.h"
-#include "backend/retdec-llvmir2hll/serdes/tool_info.h"
-#include "backend/retdec-llvmir2hll/serdes/type.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/time.h"
+#include "retdec-llvmir2hll/retdec-config/config.h"
+#include "retdec-llvmir2hll/serdes/address.h"
+#include "retdec-llvmir2hll/serdes/architecture.h"
+#include "retdec-llvmir2hll/serdes/class.h"
+#include "retdec-llvmir2hll/serdes/file_format.h"
+#include "retdec-llvmir2hll/serdes/file_type.h"
+#include "retdec-llvmir2hll/serdes/function.h"
+#include "retdec-llvmir2hll/serdes/language.h"
+#include "retdec-llvmir2hll/serdes/object.h"
+#include "retdec-llvmir2hll/serdes/pattern.h"
+#include "retdec-llvmir2hll/serdes/vtable.h"
+#include "retdec-llvmir2hll/serdes/tool_info.h"
+#include "retdec-llvmir2hll/serdes/type.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/retdec-utils/time.h"
 
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace {
 

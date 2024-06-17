@@ -9,7 +9,7 @@
 // and conform to the coding standards of the RetDec project.
 // !!!
 
-#include "backend/retdec-llvmir2hll/retdec-utils/crc32.h"
+#include "retdec-llvmir2hll/retdec-utils/crc32.h"
 
 namespace retdec {
 namespace utils {

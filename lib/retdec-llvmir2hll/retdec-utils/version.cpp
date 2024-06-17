@@ -4,7 +4,7 @@
  * @copyright (c) 2021 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/retdec-utils/version.h"
+#include "retdec-llvmir2hll/retdec-utils/version.h"
 
 namespace retdec {
 namespace utils {

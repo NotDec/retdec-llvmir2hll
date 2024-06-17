@@ -8,9 +8,9 @@
 #include <map>
 #include <sstream>
 
-#include "backend/retdec-llvmir2hll/retdec-utils/io/logger.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/os.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/time.h"
+#include "retdec-llvmir2hll/retdec-utils/io/logger.h"
+#include "retdec-llvmir2hll/retdec-utils/os.h"
+#include "retdec-llvmir2hll/retdec-utils/time.h"
 
 #ifdef OS_WINDOWS
 #include <io.h>

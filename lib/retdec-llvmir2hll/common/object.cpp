@@ -6,9 +6,9 @@
 
 #include <cassert>
 
-#include "backend/retdec-llvmir2hll/common/object.h"
-#include "backend/retdec-llvmir2hll/common/storage.h"
-#include "backend/retdec-llvmir2hll/common/type.h"
+#include "retdec-llvmir2hll/common/object.h"
+#include "retdec-llvmir2hll/common/storage.h"
+#include "retdec-llvmir2hll/common/type.h"
 
 namespace retdec {
 namespace common {

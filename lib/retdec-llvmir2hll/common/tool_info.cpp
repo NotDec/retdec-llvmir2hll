@@ -7,8 +7,8 @@
 #include <algorithm>
 #include <sstream>
 
-#include "backend/retdec-llvmir2hll/common/tool_info.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/common/tool_info.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
 
 namespace {
 

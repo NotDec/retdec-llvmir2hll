@@ -6,8 +6,8 @@
 
 #include <algorithm>
 
-#include "backend/retdec-llvmir2hll/common/architecture.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/common/architecture.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
 
 namespace {
 

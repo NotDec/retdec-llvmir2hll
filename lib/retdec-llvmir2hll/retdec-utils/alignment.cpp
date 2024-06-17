@@ -4,7 +4,7 @@
  * @copyright (c) 2017 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/retdec-utils/alignment.h"
+#include "retdec-llvmir2hll/retdec-utils/alignment.h"
 
 namespace retdec {
 namespace utils {

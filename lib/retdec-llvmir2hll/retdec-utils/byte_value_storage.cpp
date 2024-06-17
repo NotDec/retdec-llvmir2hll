@@ -6,10 +6,10 @@
 #include <cassert>
 #include <cstring>
 
-#include "backend/retdec-llvmir2hll/retdec-utils/byte_value_storage.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/conversion.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/system.h"
+#include "retdec-llvmir2hll/retdec-utils/byte_value_storage.h"
+#include "retdec-llvmir2hll/retdec-utils/conversion.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/retdec-utils/system.h"
 
 namespace retdec {
 namespace utils {

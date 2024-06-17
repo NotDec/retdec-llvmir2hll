@@ -8,8 +8,8 @@
 #include <cassert>
 #include <vector>
 
-#include "backend/retdec-llvmir2hll/common/storage.h"
-#include "backend/retdec-llvmir2hll/common/address.h"
+#include "retdec-llvmir2hll/common/storage.h"
+#include "retdec-llvmir2hll/common/address.h"
 
 namespace retdec {
 namespace common {

@@ -4,8 +4,8 @@
  * @copyright (c) 2017 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/common/vtable.h"
-#include "backend/retdec-llvmir2hll/common/address.h"
+#include "retdec-llvmir2hll/common/vtable.h"
+#include "retdec-llvmir2hll/common/address.h"
 
 namespace retdec {
 namespace common {

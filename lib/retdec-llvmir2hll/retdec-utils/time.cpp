@@ -9,8 +9,8 @@
 #include <sstream>
 #include <string>
 
-#include "backend/retdec-llvmir2hll/retdec-utils/os.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/time.h"
+#include "retdec-llvmir2hll/retdec-utils/os.h"
+#include "retdec-llvmir2hll/retdec-utils/time.h"
 
 namespace retdec {
 namespace utils {

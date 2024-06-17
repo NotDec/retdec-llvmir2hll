@@ -6,7 +6,7 @@
 
 #include <algorithm>
 
-#include "backend/retdec-llvmir2hll/common/file_format.h"
+#include "retdec-llvmir2hll/common/file_format.h"
 
 namespace retdec {
 namespace common {

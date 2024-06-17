@@ -9,8 +9,8 @@
 #include <cstdio>
 #include <vector>
 
-#include "backend/retdec-llvmir2hll/common/address.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/conversion.h"
+#include "retdec-llvmir2hll/common/address.h"
+#include "retdec-llvmir2hll/retdec-utils/conversion.h"
 
 namespace retdec {
 namespace common {

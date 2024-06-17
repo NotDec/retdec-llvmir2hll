@@ -6,7 +6,7 @@
 
 #include <cassert>
 
-#include "backend/retdec-llvmir2hll/retdec-utils/io/log.h"
+#include "retdec-llvmir2hll/retdec-utils/io/log.h"
 
 namespace retdec {
 namespace utils {

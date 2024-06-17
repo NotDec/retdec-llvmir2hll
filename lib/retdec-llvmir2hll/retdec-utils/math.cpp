@@ -4,7 +4,7 @@
 * @copyright (c) 2017 Avast Software, licensed under the MIT license
 */
 
-#include "backend/retdec-llvmir2hll/retdec-utils/math.h"
+#include "retdec-llvmir2hll/retdec-utils/math.h"
 
 namespace retdec {
 namespace utils {

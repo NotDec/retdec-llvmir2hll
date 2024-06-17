@@ -6,8 +6,8 @@
 
 #include <cstddef>
 
-#include "backend/retdec-llvmir2hll/retdec-utils/memory.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/os.h"
+#include "retdec-llvmir2hll/retdec-utils/memory.h"
+#include "retdec-llvmir2hll/retdec-utils/os.h"
 
 #ifdef OS_WINDOWS
 	#include <windows.h>

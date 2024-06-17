@@ -14,12 +14,12 @@
 #include <llvm/IR/Instructions.h>
 #include <llvm/IR/Module.h>
 
-#include "backend/retdec-llvmir2hll/llvm/llvm_support.h"
-#include "backend/retdec-llvmir2hll/support/debug.h"
-#include "backend/retdec-llvmir2hll/support/smart_ptr.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/container.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/conversion.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/llvm/llvm_support.h"
+#include "retdec-llvmir2hll/support/debug.h"
+#include "retdec-llvmir2hll/support/smart_ptr.h"
+#include "retdec-llvmir2hll/retdec-utils/container.h"
+#include "retdec-llvmir2hll/retdec-utils/conversion.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
 
 using retdec::utils::hasItem;
 using retdec::utils::hasOnlyHexadecimalDigits;

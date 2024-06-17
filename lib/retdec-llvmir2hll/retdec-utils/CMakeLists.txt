@@ -16,7 +16,7 @@ add_library(utils STATIC
 	system.cpp
 	time.cpp
 	version.cpp
-	${RETDEC_DEPS_DIR}/whereami/whereami/whereami.c
+  whereami.c
 )
 add_library(retdec::utils ALIAS utils)
 

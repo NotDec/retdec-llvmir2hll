@@ -5,32 +5,29 @@
  */
 
 #include <cassert>
-// #include <whereami/whereami.h>
 
-#include "backend/retdec-llvmir2hll/retdec-utils/binary_path.h"
+#include "retdec-llvmir2hll/retdec-utils/binary_path.h"
+#include "retdec-llvmir2hll/retdec-utils/whereami.h"
 
 namespace {
 
-// std::string getStringThisBinaryPath(
-// 		std::size_t &directorySize)
-// {
-// 	int pathSize = 0;
-// 	int dirPathSize = 0;
-// 	std::string result;
+std::string getStringThisBinaryPath(std::size_t &directorySize) {
+  int pathSize = 0;
+  int dirPathSize = 0;
+  std::string result;
 
-// 	// Get length of path.
-// 	pathSize = wai_getExecutablePath(NULL, 0, &dirPathSize);
+  // Get length of path.
+  pathSize = wai_getExecutablePath(NULL, 0, &dirPathSize);
 
-// 	// Get path again.
-// 	if (pathSize > 0)
-// 	{
-// 		result.resize(pathSize);
-// 		wai_getExecutablePath(&result[0], pathSize, &dirPathSize);
-// 	}
+  // Get path again.
+  if (pathSize > 0) {
+    result.resize(pathSize);
+    wai_getExecutablePath(&result[0], pathSize, &dirPathSize);
+  }
 
-// 	directorySize = dirPathSize;
-// 	return result;
-// }
+  directorySize = dirPathSize;
+  return result;
+}
 
 } // anonymous namespace
 
@@ -48,9 +45,11 @@ namespace utils {
  *
  * @return absolute path
  */
-fs::path getThisBinaryPath()
-{
-	assert(!"not implemented");
+fs::path getThisBinaryPath() {
+  std::size_t dirPathSize = 0;
+  std::string path = getStringThisBinaryPath(dirPathSize);
+
+  return path;
 }
 
 /**
@@ -58,9 +57,16 @@ fs::path getThisBinaryPath()
  *
  * @return absolute path
  */
-fs::path getThisBinaryDirectoryPath()
-{
-	assert(!"not implemented");
+fs::path getThisBinaryDirectoryPath() {
+  std::size_t dirPathSize = 0;
+  std::string path = getStringThisBinaryPath(dirPathSize);
+
+  // Remove file from path.
+  if (!path.empty()) {
+    path.erase(dirPathSize + 1);
+  }
+
+  return path;
 }
 
 } // namespace utils

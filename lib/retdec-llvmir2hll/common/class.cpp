@@ -4,8 +4,8 @@
  * @copyright (c) 2019 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/common/class.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/container.h"
+#include "retdec-llvmir2hll/common/class.h"
+#include "retdec-llvmir2hll/retdec-utils/container.h"
 
 using retdec::utils::hasItem;
 

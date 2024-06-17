@@ -4,10 +4,10 @@
  * @copyright (c) 2017 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/retdec-utils/container.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/conversion.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/string.h"
-#include "backend/retdec-llvmir2hll/retdec-utils/ord_lookup.h"
+#include "retdec-llvmir2hll/retdec-utils/container.h"
+#include "retdec-llvmir2hll/retdec-utils/conversion.h"
+#include "retdec-llvmir2hll/retdec-utils/string.h"
+#include "retdec-llvmir2hll/retdec-utils/ord_lookup.h"
 
 namespace retdec {
 namespace utils {

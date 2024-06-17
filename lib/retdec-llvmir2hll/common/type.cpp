@@ -6,7 +6,7 @@
 
 #include <cassert>
 
-#include "backend/retdec-llvmir2hll/common/type.h"
+#include "retdec-llvmir2hll/common/type.h"
 
 namespace retdec {
 namespace common {

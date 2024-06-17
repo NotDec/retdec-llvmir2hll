@@ -10,10 +10,10 @@
 #include <rapidjson/prettywriter.h>
 #include <rapidjson/stringbuffer.h>
 
-#include "backend/retdec-llvmir2hll/common/file_type.h"
-#include "backend/retdec-llvmir2hll/serdes/file_type.h"
+#include "retdec-llvmir2hll/common/file_type.h"
+#include "retdec-llvmir2hll/serdes/file_type.h"
 
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace {
 

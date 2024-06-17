@@ -7,10 +7,10 @@
 #include <rapidjson/prettywriter.h>
 #include <rapidjson/stringbuffer.h>
 
-#include "backend/retdec-llvmir2hll/common/language.h"
-#include "backend/retdec-llvmir2hll/serdes/language.h"
+#include "retdec-llvmir2hll/common/language.h"
+#include "retdec-llvmir2hll/serdes/language.h"
 
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace {
 

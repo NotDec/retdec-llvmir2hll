@@ -4,9 +4,9 @@
  * @copyright (c) 2019 Avast Software, licensed under the MIT license
  */
 
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace retdec {
 namespace serdes {

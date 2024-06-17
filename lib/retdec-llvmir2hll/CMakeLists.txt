@@ -364,6 +364,7 @@ add_library(llvmir2hll STATIC
 	retdec-utils/io/log.cpp
 	retdec-utils/version.cpp
 	retdec-utils/string.cpp
+	retdec-utils/whereami.c
 	llvmir2hll.cpp
 	config.cpp
 )
@@ -376,6 +377,11 @@ target_include_directories(llvmir2hll
 	${RAPIDJSON_INCLUDE_DIR}
 )
 add_dependencies(llvmir2hll rapidjson)
+
+target_link_libraries(llvmir2hll
+    PUBLIC
+    LLVMCore LLVMIRReader LLVMSupport LLVMPasses
+)
 
 # target_link_libraries(llvmir2hll
 # 	PUBLIC
@@ -403,6 +409,9 @@ set_target_properties(llvmir2hll
 	PROPERTIES
 		OUTPUT_NAME "retdec-llvmir2hll"
 )
+
+#  undefined reference to `typeinfo for llvm::ModulePass
+set_source_files_properties(llvmir2hll.cpp PROPERTIES COMPILE_FLAGS -fno-rtti)
 
 # # Install includes.
 # install(

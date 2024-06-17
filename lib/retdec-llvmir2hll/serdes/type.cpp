@@ -7,9 +7,9 @@
 #include <rapidjson/prettywriter.h>
 #include <rapidjson/stringbuffer.h>
 
-#include "backend/retdec-llvmir2hll/common/type.h"
-#include "backend/retdec-llvmir2hll/serdes/type.h"
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/common/type.h"
+#include "retdec-llvmir2hll/serdes/type.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace {
 

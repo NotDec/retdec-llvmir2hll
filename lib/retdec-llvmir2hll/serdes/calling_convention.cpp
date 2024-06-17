@@ -10,9 +10,9 @@
 #include <rapidjson/prettywriter.h>
 #include <rapidjson/stringbuffer.h>
 
-#include "backend/retdec-llvmir2hll/common/calling_convention.h"
-#include "backend/retdec-llvmir2hll/serdes/calling_convention.h"
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/common/calling_convention.h"
+#include "retdec-llvmir2hll/serdes/calling_convention.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace {
 

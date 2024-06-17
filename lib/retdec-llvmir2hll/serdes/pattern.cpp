@@ -10,12 +10,12 @@
 #include <rapidjson/prettywriter.h>
 #include <rapidjson/stringbuffer.h>
 
-#include "backend/retdec-llvmir2hll/common/pattern.h"
-#include "backend/retdec-llvmir2hll/serdes/address.h"
-#include "backend/retdec-llvmir2hll/serdes/pattern.h"
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/common/pattern.h"
+#include "retdec-llvmir2hll/serdes/address.h"
+#include "retdec-llvmir2hll/serdes/pattern.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
-#include "backend/retdec-llvmir2hll/serdes/std.h"
+#include "retdec-llvmir2hll/serdes/std.h"
 
 namespace {
 
